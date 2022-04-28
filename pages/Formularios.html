@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    </head>
+
+    <body>
+         <form action="" method="get">
+             <!--Caixa de texto-->
+            <label for="idNome">Nome:</label> <br>
+            <input type="text" id="idNome" name="nmNome"> 
+            <br>
+          
+
+            <label for="idCPF">CPF:</label><br>
+            <input type="text" id="idCPF" name="nmCPF">
+
+            <br>
+
+            <!--Caixas para numero-->
+            <label for="idIdade">Idade:</label><br>
+            <input type="number" id="idIdade" name="nmIdade" min="1" max="120">
+            <br><br>
+
+            <!--Range (intervalo numerico)-->
+            <label for="idIntervalo">intervalo: </label>
+            <input type="range" id="idIntervalo" name="nmIntervalo" min="0" max="100" value="0">
+
+            <br><br>
+            
+            <!--Caixas para senhas-->
+            <label for="Idsenha">Senha:</label><br>
+            <input type="password" id="idSenha" name="nmSenha">
+            <br><br>
+
+            <!--caixa para e-mail-->
+            <label for="IdEmail">E-mail</label><br>
+            <input type="email" id="idEmail" name="nmEmail">
+            <br><br>
+
+            <!--Caixa para data-->
+            <label for="idDataNasc">Data nascimento</label><br>
+            <input type="date" id="idDataNasc" name="nmDatanasc">
+            <br><br>
+            
+            <!--caixas para data hora local-->
+            <label for="idDataHora">Data: </label><br>
+            <input type="datetime-local" id="idDatahora" name="nmDataHora">
+
+            <br><br>
+            <!--seletor de cores-->
+            <label for="idCor">Cor</label><br>
+            <input type="color" id="idColor" name="Color">
+            <br><br>
+            
+
+
+
+            <!--Radio button-->
+            <input type="radio" id="idSexo" name="nmGenero" value="F">
+            <label for="idFem">Feminino</label><br>
+
+
+            <input type="radio" id="idMas" name="nmGenero" value="M">
+            <label for="idMas">Masculino</label>
+            <br><br>
+
+            <!--Checkbox-->
+            <input type="checkbox" id="idFordka" name="nmFordka" value="KA">
+            <label for="idFordka">Fordka</label> 
+            <br>
+            <input type="checkbox" id="idGol" name="nmGol"value="Gol">
+            <label for="idGol">Gol</label>
+            <br><br>
+
+            <!--BOTOES-->
+
+            <input type="submit" id="idBtSubmit">
+            <input type="reset" id="idReset">
+            <input type="button" id="idBotao" value="Salvar">
+        
+
+         </form>
+    </body>
